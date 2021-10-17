@@ -1,0 +1,19 @@
+img {
+  width: 200px;
+  border-radius: 100%;
+}
+.info {
+}
+.photo {
+  padding: 0%;
+  margin: 0%;
+}
+.button-section {
+  display: grid;
+}
+.button-space {
+  margin-top: 30px;
+  margin-bottom:30px;
+  margin-top: 30px;
+  width: 200px;
+}

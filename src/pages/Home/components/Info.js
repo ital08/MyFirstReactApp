@@ -1,8 +1,40 @@
+import photo from "../../../assets/PSX_20210709_132034.png";
+import "../../../styles/info.css";
 export const Info = () => {
+  function github() {
+    window.open("https://github.com/ital08");
+  }
+  function linkedin() {
+    window.open("https://www.linkedin.com/in/iarivadeneyra/");
+  }
   return (
     <>
-      <div>
-        <p> Contact</p>
+      <div class="info">
+        <div class="photo">
+          <img src={photo} />
+        </div>
+        <div class="button-section">
+          <div
+            onClick={github}
+            class="button-space ui vertical animated button "
+            tabindex="0"
+          >
+            <div class="hidden content">GitHub</div>
+            <div class="visible content">
+              <i class="github icon"></i>
+            </div>
+          </div>
+          <div
+            onClick={linkedin}
+            class="ui vertical animated button button-space"
+            tabindex="0"
+          >
+            <div class="hidden content">LinkedIn</div>
+            <div class="visible content">
+              <i class="linkedin icon"></i>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
