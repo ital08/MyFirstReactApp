@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import { About, Welcome } from "./components/Welcome";
 export function HomeContainer() {
   return (
-    <>
+    <div>
       <Welcome />
-    </>
+    </div>
   );
 }

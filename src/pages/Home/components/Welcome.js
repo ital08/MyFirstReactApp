@@ -3,7 +3,19 @@ import "../../../styles/bg.css";
 import "../../../styles/img.css";
 import "../../../styles/div.css";
 import photo from "../../../assets/LOW_CODE_DEVELOPMENT.png";
+import { getWakaTimeStats } from "../../../services";
+import { useEffect, useState } from "react";
 export const Welcome = () => {
+  const [users, setUsers] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(() => {
+    setIsLoading(true);
+    getWakaTimeStats();
+    return () => {
+      console.log("axios cleanup.");
+    };
+  }, []);
   return (
     <>
       <div class="bg">
@@ -20,7 +32,6 @@ export const Welcome = () => {
           </div>
           {/* skills */}
           <div class="secondary-welcome">
-            
             <div class="skills-section">
               <div>
                 <h3>Skills</h3>
