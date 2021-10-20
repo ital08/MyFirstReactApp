@@ -1,7 +1,8 @@
+import "../../../styles/bg.css";
 export const Experience = () => {
   return (
     <>
-      <div>
+      <div class="bg">
         <p> Experience</p>
       </div>
     </>

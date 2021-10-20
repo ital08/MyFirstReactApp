@@ -1,7 +1,10 @@
+import "../../../styles/bg.css";
+
+import "../../../styles/img.css";
 export const About = () => {
   return (
     <>
-      <div>
+      <div class="bg">
         <p> About</p>
       </div>
     </>

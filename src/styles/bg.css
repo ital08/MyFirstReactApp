@@ -1,0 +1,52 @@
+.bg {
+  background-color: rgb(12, 9, 25);
+  position: fixed; /*position: fixed;*/
+  top: 39.6px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+.containers {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  border-radius: 20px;
+}
+.skills-section {
+  width: 300px;
+}
+.skills {
+  text-align: right; /* Right-align text */
+  padding :0;
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  border-radius: 10px;
+  
+}
+
+.html {
+  width: 70%;
+  margin-left: 0;
+  background-color: #04aa6d;
+}
+.css {
+  width: 70%;
+  background-color: #2196f3;
+}
+.js {
+  width: 65%;
+  background-color: #f44224;
+}
+.java {
+  width: 55%;
+  background-color: #ff0000;
+}
+.py {
+  width: 35%;
+  background-color: #E3CF57;
+}

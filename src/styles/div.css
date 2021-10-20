@@ -1,0 +1,22 @@
+.main-welcome {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  display: flex;
+  padding-left: 20%;
+  padding-right: 20%;
+  place-items: center;
+  max-width: 990px;
+}
+.secondary-welcome {
+  top: 50px;
+  display: flex;
+  padding-left: 20%;
+  padding-right: 20%;
+  place-items: center;
+  max-width: 990px;
+}
+
+.push-mid {
+  display: grid;
+  place-items: center;
+}
