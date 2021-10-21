@@ -4,6 +4,11 @@ export const Experience = () => {
     <>
       <div class="bg">
         <p> Experience</p>
+        <iframe
+          src="https://apppinioclientsdev.azurewebsites.net"
+          width="540"
+          height="450"
+        ></iframe>
       </div>
     </>
   );
