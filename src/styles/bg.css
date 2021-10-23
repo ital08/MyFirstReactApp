@@ -1,11 +1,12 @@
 .bg {
   background-color: rgb(12, 9, 25);
-  position: fixed; /*position: fixed;*/
-  top: 39.6px;
+  position: fixed;
+  margin-top: -14.6px;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 150%;
   color: white;
+  padding-bottom: 300px;
 }
 * {
   box-sizing: border-box;
@@ -21,12 +22,11 @@
 }
 .skills {
   text-align: right; /* Right-align text */
-  padding :0;
+  padding: 0;
   padding-top: 10px; /* Add top padding */
   padding-bottom: 10px; /* Add bottom padding */
   color: white; /* White text color */
   border-radius: 10px;
-  
 }
 
 .html {
@@ -48,5 +48,10 @@
 }
 .py {
   width: 35%;
-  background-color: #E3CF57;
+  background-color: #e3cf57;
+}
+.fullstack-bg {
+  background: url("../assets/spatialbg.gif");
+  min-height: 200px;
+  background-position: center center;
 }

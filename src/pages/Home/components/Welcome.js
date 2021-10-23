@@ -1,4 +1,5 @@
 import gif from "../../../assets/full-stack-developer.gif";
+import gif1 from "../../../assets/spatialbg.gif";
 import "../../../styles/bg.css";
 import "../../../styles/img.css";
 import "../../../styles/div.css";
@@ -11,7 +12,7 @@ export const Welcome = () => {
 
   useEffect(() => {
     setIsLoading(true);
-    getWakaTimeStats();
+    // getWakaTimeStats();
     return () => {
       console.log("axios cleanup.");
     };
@@ -19,17 +20,12 @@ export const Welcome = () => {
   return (
     <>
       <div class="bg">
-        <div class="push-mid">
-          <div class="main-welcome">
-            <div>
-              <div>
-                <h3>Web Developer</h3>
-              </div>
-            </div>
-            <div class="right">
-              <img class="img-1" src={gif} />
-            </div>
+        <div className="fullstack-bg">
+          <div>
+            <h2 className="center-img push-mid">Jr FullStack Developer</h2>
           </div>
+        </div>
+        <div class="push-mid">
           {/* skills */}
           <div class="secondary-welcome">
             <div class="skills-section">
